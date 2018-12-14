@@ -1,0 +1,12 @@
+/*
+   ** Designa UI Kit : Carousel
+   ** Author: Kofi Owusu-Afriyie
+   **Version: 2.5.0
+
+*/
+/* BASE-- base, variables, mixins, normalize */
+@import '../../../designa-core/dist/scss/core/_variables.scss';
+@import '../../../designa-core/dist/scss/core/_mixins.scss';
+
+// carousel
+@import 'carousel/_carousel.scss';
