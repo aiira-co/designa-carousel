@@ -1,4 +1,4 @@
-.ad-carousel {
+.#{$classPrefix}-carousel {
     padding: 0;
     margin: 0;
     position: relative;
@@ -32,7 +32,7 @@
             width: 100%; // height: 150px;
             @include transEase(0.3s);
 
-            .ad-carousel-item {
+            .#{$classPrefix}-carousel-item {
                 display: inline-block;
                 width: 220px;
                 min-height: 50px;
@@ -52,7 +52,7 @@
         }
     }
 
-    .ad-carousel-previous {
+    .#{$classPrefix}-carousel-previous {
         position: absolute;
         left: 5px;
         top: 0;
@@ -66,7 +66,7 @@
         @include transEase(0.3s);
         z-index: 10;
 
-        .ad-btn {
+        .#{$classPrefix}-btn {
             position: relative;
             top: 50%;
             margin-top: -25px;
@@ -88,7 +88,7 @@
         }
     }
 
-    .ad-carousel-next {
+    .#{$classPrefix}-carousel-next {
         position: absolute;
         right: 5px;
         top: 0;
@@ -102,7 +102,7 @@
         @include transEase(0.3s);
         z-index: 10;
 
-        .ad-btn {
+        .#{$classPrefix}-btn {
             position: relative;
             top: 50%;
             margin-top: -25px;
