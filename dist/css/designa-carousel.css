@@ -8,7 +8,7 @@
 :root {
   --designa-primary-rgb: #29d0e9;
   --designa-secondary-rgb:#ff0066;
-  --designa-font-size: .875rem;
+  --designa-font-size: 1.3rem;
   --designa-font-color: #575758;
   --designa-letter-spacing: 0.03em;
   --designa-letter-spacing: 0.03em;
@@ -50,7 +50,7 @@
 }
 .adx-carousel .carousel-container .carousel-overflow .adx-carousel-item {
   display: inline-block;
-  width: 220px;
+  width: 22rem;
   min-height: 50px;
   padding: 0;
   margin: 0;
@@ -65,7 +65,7 @@
 }
 .adx-carousel .adx-carousel-previous {
   position: absolute;
-  left: 5px;
+  left: 0.5rem;
   top: 0;
   width: 60px;
   height: 100%;
@@ -80,7 +80,7 @@
 .adx-carousel .adx-carousel-previous .adx-btn {
   position: relative;
   top: 50%;
-  margin-top: -25px;
+  margin-top: -20.5rem;
   background-color: rgba(28, 28, 28, 0.5);
   color: white;
 }
@@ -96,7 +96,7 @@
 }
 .adx-carousel .adx-carousel-next {
   position: absolute;
-  right: 5px;
+  right: 0.5rem;
   top: 0;
   width: 60px;
   height: 100%;
@@ -111,7 +111,7 @@
 .adx-carousel .adx-carousel-next .adx-btn {
   position: relative;
   top: 50%;
-  margin-top: -25px;
+  margin-top: -20.5rem;
   background-color: rgba(28, 28, 28, 0.5);
   color: white;
 }
